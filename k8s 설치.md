@@ -220,4 +220,4 @@
    kubectl config set-cluster kubernetes --insecure-skip-tls-verify=true
    
    kubectl config set-cluster kubernetes--certificate-authority=/path/to/ca.crt --server=https://192.168.0.34:6443
-   ```
+   ``` 
