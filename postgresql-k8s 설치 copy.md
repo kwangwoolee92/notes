@@ -11,6 +11,8 @@ postgresql 설치
 
     helm install <pod 이름> bitnami/postgresql --namespace <namespace 이름> --create-namespace
 
+    helm install <pod 이름> bitnami/postgresql --namespace <namespace 이름> --set persistence.existingClaim=<pvc 이름> --set volumePermissions.enabled=true
+
 ### 1.3 설치 후 확인
     kubectl get pod
     
